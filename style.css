@@ -194,5 +194,8 @@ footer {
     
     .form-row button {
         margin-left: 120px;
-      
     }        
+    
+    .greeting {
+      background-color: #407fc7;
+    }
