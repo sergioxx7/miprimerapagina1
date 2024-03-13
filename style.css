@@ -1,6 +1,6 @@
-*{
-    margin:0px;
-    padding:5px;
+* {
+  margin: 0px;
+  padding: 5px;
 }
 
 /*.titulo  {
@@ -19,28 +19,26 @@
   display: flex;
   justify-content: space-between;
 }
-.titulo2{
-  margin:25px;
+.titulo2 {
+  margin: 25px;
 }
 .titulo {
   background-color: white;
   padding: 10px;
   border: 10px;
-  border-style:dotted;
+  border-style: dotted;
   margin: 20px;
 }
 
 .imagen {
   display: flex;
-  justify-content:center; 
+  justify-content: center;
   align-items: center;
-    width: 500px;
-    height: 500px;
-  
+  width: 500px;
+  height: 500px;
 }
 
 /* ------------- CSS General ------------- */
-
 
 body {
   color: #5d6063;
@@ -52,7 +50,6 @@ body {
 /* ------------- Encabezado Contacto ------------- */
 
 footer {
-
   border: 5px;
   border-style: dashed;
   border-color: blue;
@@ -100,7 +97,7 @@ footer {
 }
 
 .form-row input[type="text"],
-.form-row input[type="email"]  {
+.form-row input[type="email"] {
   background-color: #bdbdbd;
   border: 0;
   border-radius: 6px;
@@ -141,61 +138,50 @@ footer {
   font-family: "Helvetica", "Arial", sans-serif;
   font-size: 14px;
 
-
   background-color: #bdbdbd;
   border: 0;
   border-radius: 6px;
-
 
   min-height: 200px;
   margin-bottom: 10px;
   padding: 7px;
   resize: none;
 
-
   width: 100%;
 }
 /* ------------- Para Pantallas de más de 700px ------------- */
 
-
 .form-row textarea {
-    width: 250px;
-  }
-  .form-row button {
-      font-size: 16px;
-      font-weight: bold;
-    
-    
-      color: #ffffff;
-      background-color: #5995da;
-    
-    
-      border: none;
-      border-radius: 3px;
-    
-    
-      padding: 10px 40px;
-      cursor: pointer;
-    }
-    
-    
-    .form-row button:hover {
-      background-color: #76aeed;
-    }
-    
-    
-    .form-row button:active {
-      background-color: #407fc7;
-    }
-    
-    
-    /* ------------- Para Pantallas de más de 700px ------------- */
-    
-    
-    .form-row button {
-        margin-left: 120px;
-    }        
-    
-    .greeting {
-      background-color: #407fc7;
-    }
+  width: 250px;
+}
+.form-row button {
+  font-size: 16px;
+  font-weight: bold;
+
+  color: #ffffff;
+  background-color: #5995da;
+
+  border: none;
+  border-radius: 3px;
+
+  padding: 10px 40px;
+  cursor: pointer;
+}
+
+.form-row button:hover {
+  background-color: #76aeed;
+}
+
+.form-row button:active {
+  background-color: #407fc7;
+}
+
+/* ------------- Para Pantallas de más de 700px ------------- */
+
+.form-row button {
+  margin-left: 120px;
+}
+
+.greeting {
+  background-color: #407fc7;
+}
